@@ -1,0 +1,65 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+header{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding:1em 0;
+    background-image: url(imagens/copacabana.jpg);
+    background-repeat: repeat-x;
+    padding: 10px;
+    position: relative;
+    background-attachment: scroll;
+    
+
+}
+
+nav{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 25px;
+    
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+    text-align: left;
+}
+.feature, .content{
+    flex: 1;
+    margin: 0.5em;
+    text-align: left;
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 20px;
+    
+    
+}
+
+
+
